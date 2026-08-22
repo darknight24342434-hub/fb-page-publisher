@@ -1,0 +1,34 @@
+{
+  "_comment": [
+    "Copy this to config.json and edit. config.json is gitignored.",
+    "Directory values may be relative — they resolve against this repository's root.",
+    "Nothing here is a credential: the tool signs in through a browser profile you",
+    "log into by hand, and never stores a Facebook password."
+  ],
+
+  "chromePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "fallbackChromePaths": [
+    "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+    "C:/Program Files/Microsoft/Edge/Application/msedge.exe",
+    "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
+  ],
+
+  "profileRoot": "profiles",
+  "profileName": "main",
+  "pendingDir": "pending",
+  "sentDir": "sent",
+  "failedDir": "failed",
+  "logDir": "logs",
+
+  "facebookUrl": "https://www.facebook.com/",
+  "postUrl": "https://www.facebook.com/",
+
+  "postButtonText": "發佈|發布|Post",
+  "composeText": "在想些什麼|What's on your mind|建立貼文|Create post",
+  "photoText": "相片／影片|相片/影片|Photo/video|Photo\/video",
+  "textboxText": "建立公開貼文|你在想什麼|在想些什麼|What's on your mind",
+
+  "headless": false,
+  "viewport": { "width": 1800, "height": 1100 },
+  "postWaitSeconds": 25
+}

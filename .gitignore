@@ -1,0 +1,10 @@
+profiles/
+logs/
+pending/
+sent/
+failed/
+node_modules/
+*.log
+
+# Your own paths and browser-profile location. Copy config.example.json.
+config.json
